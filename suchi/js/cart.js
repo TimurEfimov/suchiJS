@@ -14,8 +14,6 @@ window.addEventListener("click", function (event) {
       price: card.querySelector(".price__currency").innerText,
     };
 
-	
-
     const cartItemHTML = `
 							<div class="cart-item" data-id="${productInfo.id}">
 								<div class="cart-item__top">

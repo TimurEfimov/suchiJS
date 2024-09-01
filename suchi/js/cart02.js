@@ -57,7 +57,10 @@ window.addEventListener("click", function (event) {
       cartWrapper.insertAdjacentHTML("beforeend", cartItemHTML);
     }
 
+    card.querySelector("[data-counter]").innerText = "1";
 
-    card.querySelector('[data-counter]').innerText = '1';
+    toogleCartStatus();
+
+    calcCartPriceAndDelivery();
   }
 });
